@@ -1,6 +1,6 @@
 export{}
 
-function calcAverage3Score(score1: number, score2: number, score3: number) {
+function calcAverage3Score(score1: number, score2: number, score3: number): number {
   const average3Score = (score1 + score2 + score3) / 3
   return average3Score
 }
